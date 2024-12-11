@@ -1,5 +1,5 @@
 import React from "react";
-import saboneteImage from '/public/saboneteheroi2.jpg';
+import saboneteImage from '../../assets/produtoimg2.jpg';
 
 const Hero = () => {
     return (
@@ -17,11 +17,11 @@ const Hero = () => {
                 <div className="flex gap-8 font-semibold mt-8 justify-center md:justify-start">
                     <button
                         type="button"
-                        className="bg-green-900 active:scale-[0.97] hover:bg-green-800 transition rounded-md text-white px-4 py-2 shadow-xl">
+                        className="bg-primary-dark active:scale-[0.97] hover:bg-secondary-dark transition rounded-md text-white px-4 py-2 shadow-xl">
                         Nossos produtos
                     </button>
                     <button
-                        className="text-green-900 active:scale-[0.97] hover:text-black transition"
+                        className="text-primary-dark active:scale-[0.97] hover:text-secondary-dark transition"
                         type="button">
                         Fazer pedido
                     </button>
